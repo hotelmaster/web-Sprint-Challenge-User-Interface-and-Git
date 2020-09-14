@@ -149,9 +149,9 @@ html {
     font-size:10px;
 }
 body {
-    margin:0 40rem;
+    margin:0 45rem;
     border:0.2rem solid black;
-    height:110vh;
+    height:105vh;
 }
 div.container {
     
@@ -174,14 +174,80 @@ header .flexNav .navItem {
     text-decoration:none;
     font-weight:bold;
 }
-
-
-
-
-
-
-
-
-
+.top-content {
+    display:flex;
+    justify-content:space-between;
+}
+.top-content .text-container {
+    font-size:1.4rem;
+    margin:1.5rem 0.5rem;
+    padding:1rem;
+    font-weight:bold;
+}
+.top-content .text-container h1 {
+    font-size:2rem;
+}
+.middle-content h2 {
+    font-weight:bold;
+}
+.middle-content .boxes {
+    display:flex;
+    flex-flow:row wrap;   
+    align-content:center; 
+}
+.middle-content .boxes .box {
+    width:10rem;
+    height:10rem;
+    font-size:1.6rem;
+}
+.middle-content .boxes .box1 {
+    background-color:teal;
+}
+.middle-content .boxes .box2 {
+    background-color:gold;
+}
+.middle-content .boxes .box3 {
+    background-color:cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color:coral;
+}
+.middle-content .boxes .box5 {
+    background-color:crimson;
+}
+.middle-content .boxes .box6 {
+    background-color:forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color:darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color:hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color:indigo;
+}
+.middle-content .boxes .box10 {
+    background-color:dodgerblue;
+}
+.bottom-content {
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    margin:2rem 0;
+}
+.bottom-content .text-container {
+    width:15rem;
+    height:15rem;
+    margin:0.5rem;
+    padding:0.5rem;
+    font-weight:bold;
+}
+.bottom-content .text-container h2 {
+    font-size:1.6rem;    
+}
+.bottom-content .text-container p {
+    font-size:1.4rem;
+}
 
 
