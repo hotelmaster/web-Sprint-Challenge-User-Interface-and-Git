@@ -144,3 +144,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* My CSS begins below the reset. */
+html {
+    font-size:10px;
+}
+body {
+    margin:0 40rem;
+    border:0.2rem solid black;
+    height:110vh;
+}
+div.container {
+    
+}
+header {
+    margin:1rem 1.5rem;
+    display:flex;
+    justify-content:space-between;
+}
+header .flexNav {
+    display:flex;
+    justify-content:space-between;
+    margin:2.5rem 2.5rem;
+    width:65rem;
+    margin-left:4rem;
+}
+header .flexNav .navItem {
+    color:black;
+    font-size:1.2rem;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
