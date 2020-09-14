@@ -153,9 +153,6 @@ body {
     border:0.2rem solid black;
     height:105vh;
 }
-div.container {
-    
-}
 header {
     margin:1rem 1.5rem;
     display:flex;
@@ -170,9 +167,13 @@ header .flexNav {
 }
 header .flexNav .navItem {
     color:black;
-    font-size:1.2rem;
+    font-size:1.4rem;
     text-decoration:none;
     font-weight:bold;
+}
+/* Top content in about page */
+.top-content-about {
+    margin:2rem 2rem;
 }
 .top-content {
     display:flex;
@@ -187,6 +188,18 @@ header .flexNav .navItem {
 .top-content .text-container h1 {
     font-size:2rem;
 }
+
+/* middle-content-about flex container */
+.middle-content-about {
+    display:flex;
+    flex-flow:row wrap;
+}
+.middle-content-about .img {
+    height:15rem;
+    width:15rem;
+    font-size:1.6rem;
+}
+
 .middle-content h2 {
     font-weight:bold;
 }
