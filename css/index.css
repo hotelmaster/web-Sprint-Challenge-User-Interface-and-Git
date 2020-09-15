@@ -151,7 +151,7 @@ html {
 body {
     margin:0 45rem;
    /* border:0.2rem solid black; */
-    height:120vh;
+    height:105vh;
 }
 header {
     margin:1rem 1rem;
@@ -173,11 +173,22 @@ header .flexNav .navItem {
 }
 /* Top content in about page */
 .top-content-about {
-    margin:2rem 2rem;
+    margin:2rem 0;
 }
 .top-content-about img.jumbo-about {
-    margin:1.2rem
+    margin:0 0;
 }
+/* Same name as in index html file, so use higher specificity */
+/* About section at top of about page */
+div.top-content-about div.top-content {
+    font-size:1.6rem;
+    height:12rem;
+    margin:1.5rem 0;
+}
+div.top-content-about div.top-content h2 {
+    font-size:2rem;
+}
+
 .top-content {
     display:flex;
     justify-content:space-between;
@@ -198,35 +209,33 @@ header .flexNav .navItem {
 .middle-content-about {
     display:flex;
     flex-flow:row wrap;
-    height:100vh;
+    height:120vh;
 }
 .middle-content-about .imgs {
-    height:38rem;
-    width:38rem;
+    height:45rem;
+    width:35rem;
+    margin:1.5rem;
     font-size:1.2rem;
-    padding:1rem;
-    margin:0.5rem;
     border-bottom:0.1rem dashed black;
 }
 .middle-content-about .imgs a {
-    font-size:1.2rem;
-    margin-top:2rem;
-    padding:0.5rem;
+    font-size:1.6rem;
     border:0.2rem solid black;
     text-decoration:none;
-    border-radius:1rem;
+    padding:1rem 1.5rem;
+    border-radius:0.6rem;
     color:black;
 }
 .middle-content-about .imgs .text-container {
-    border:0.2rem solid black;
+    /* border:0.2rem solid black; */
     margin:2rem 0;
-    padding:1rem;
+    padding-right:0.2rem;
 }
 .middle-content-about .imgs .text-container h2 {
-    font-size:1.5rem;
+    font-size:2rem;
 }
 .middle-content-about .imgs .text-container p {
-    font-size:1rem;
+    font-size:1.6rem;
 }
 
 /* End of middle cotent about page css */
@@ -292,5 +301,9 @@ header .flexNav .navItem {
 .bottom-content .text-container p {
     font-size:1.4rem;
 }
-
+/* Last class bottom of the about page */
+.last {
+    font-size:1.6rem;
+    margin:3rem 0;
+}
 
